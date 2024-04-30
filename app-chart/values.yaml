@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: <registry FQDN>:4443/admin/cats
-  tag: v0.0.3
+  repository: ec2-54-92-207-248.compute-1.amazonaws.com:4443/admin/cats
+  tag: v0.0.1
   pullPolicy: IfNotPresent
 
 nameOverride: ""
